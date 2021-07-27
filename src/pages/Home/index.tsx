@@ -1,4 +1,5 @@
 import { ReactComponent as HomeImage } from 'assets/images/home-image.svg';
+import { Link } from 'react-router-dom';
 import "./styles.css";
 
 const Home = () => {
@@ -15,7 +16,9 @@ const Home = () => {
       </div>
       <div className="home-bottom">
         <div className="home-bottom-top">
-        <button type="button" className="btn btn-primary btn-lg">VER CATÁLOGO</button>
+          <Link to="/products">
+            <button type="button" className="btn btn-primary btn-lg">VER CATÁLOGO</button>
+          </Link>
         </div>
         <div className="home-bottom-bottom">
           Comece agora a navegar
