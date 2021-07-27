@@ -14,3 +14,7 @@
 .text-primary {
   color: var(--color-primary) !important;
 }
+
+.btn-primary {
+  background-color: var(--color-primary) !important;
+}
