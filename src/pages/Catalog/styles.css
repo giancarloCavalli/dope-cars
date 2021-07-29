@@ -1,0 +1,15 @@
+.search-menu {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  height: 123px;
+  padding: 10px 20px 0px 20px;
+  background: #EDEDED;
+  border-radius: 10px;
+}
+
+@media (min-width: 1200px) {
+  .search-menu {
+    padding: 10px 70px 0px 70px;
+  }
+}

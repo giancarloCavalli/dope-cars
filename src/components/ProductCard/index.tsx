@@ -4,7 +4,7 @@ import { ReactComponent as ProductImage } from 'assets/images/product-image.svg'
 const ProductCard = () => {
   return (
     <div className="product-card">
-      <div>
+      <div className="card-top">
         <ProductImage />
       </div>
       <div className="card-main">
